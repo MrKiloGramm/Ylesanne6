@@ -34,7 +34,7 @@
                   s = "0" + s;
                 }
         
-                c.innerHTML = h + ":" + m + ":" + s + " AM";
+                c.innerHTML = h + ":" + m + ":" + s + " PM";
             }
 
             //Kui ei, siis jätkame nii, nagu ennem oli
@@ -52,7 +52,7 @@
                     s = "0" + s;
                 }
     
-                c.innerHTML = h + ":" + m + ":" + s + " PM";
+                c.innerHTML = h + ":" + m + ":" + s + " AM";
             }
         };
         
