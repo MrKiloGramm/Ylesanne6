@@ -19,7 +19,7 @@
 
             //Kui meil on kellaaeg (tund), mis on 24 tunni kella järgi suurem, kui 13 siis lahutame
             //12 ,et saada 12 tunni kell
-            if (h > 13) {
+            if (h > 12) {
                 h -= 12;
 
                 if (h < 10) {
